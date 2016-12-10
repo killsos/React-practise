@@ -24,11 +24,11 @@
 
 * Ignore files
 
-      babel src --out-dir lib --ignore spec.js,test.js
+        babel src --out-dir lib --ignore spec.js,test.js
 
 * Copy files
 
-      babel src --out-dir lib --copy-files
+        babel src --out-dir lib --copy-files
 
 * Piping Files
 
@@ -36,9 +36,9 @@
 
 * Using Plugins
 
-      babel script.js --out-file script-compiled.js --plugins=es2015,react
+        babel script.js --out-file script-compiled.js --plugins=es2015,react
 
 
 * Using Presets
 
-      babel script.js --out-file script-compiled.js --presets=add-module-exports,transform-es2015-modules-amd
+        babel script.js --out-file script-compiled.js --presets=add-module-exports,transform-es2015-modules-amd
