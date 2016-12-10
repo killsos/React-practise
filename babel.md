@@ -5,12 +5,12 @@
 
 * If you would like to output to a file you may use --out-file or -o.
 
-      babel script.js --out-file script-compiled.js
+          babel script.js --out-file script-compiled.js
       babel script.js -o script-compiled.js
 
 * compile a file every time that you change it, use the --watch or -w option:
 
-      babel script.js --watch --out-file script-compiled.js
+          babel script.js --watch --out-file script-compiled.js
 
 * Compile Directories
 * Compile the entire src directory and output it to the lib directory. You may use --out-dir or -d. This doesn’t overwrite any other files or directories in lib.
@@ -42,3 +42,7 @@
 * Using Presets
 
         babel script.js --out-file script-compiled.js --presets=add-module-exports,transform-es2015-modules-amd
+
+* Ignoring .babelrc
+
+        babel --no-babelrc script.js --out-file script-compiled.js --presets=add-module-exports,transform-es2015-modules-amd
