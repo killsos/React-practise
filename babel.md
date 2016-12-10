@@ -27,14 +27,17 @@
       babel src --out-dir lib --ignore spec.js,test.js
 
 * Copy files
+
       babel src --out-dir lib --copy-files
 
 * Piping Files
+
         babel --out-file script-compiled.js < script.js
 
 * Using Plugins
+
       babel script.js --out-file script-compiled.js --plugins=es2015,react
-      
+
 
 * Using Presets
 
